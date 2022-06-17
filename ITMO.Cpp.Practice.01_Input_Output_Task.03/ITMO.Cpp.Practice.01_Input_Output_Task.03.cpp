@@ -13,25 +13,22 @@ int main()
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
 
-    cout << "Расчет площади треугольника ABC по формуле Герона\n\n";
+    cout << "Расчет площади равностороннего треугольника по формуле Герона\n\n";
     
-    float a, b, c;
-    
-    cout << "Введите длинну стороны AB: ";
-    cin >> a;
-    cout << "Введите длинну стороны BC: ";
-    cin >> b;
-    cout << "Введите длинну стороны CA: ";
-    cin >> c;
+    float abc, p, S;
 
-    float p = (a + b + c) / 2;
-    float S = sqrt(p * (p - a) * (p - b) * (p - c));
+    cout << "Укажите сторону треугольника: ";
+    cin >> abc;
+
+    p = (abc * 3) / 2;
+
+    S = sqrt(p * (p - abc) * (p - abc) * (p - abc));
 
     cout << "\n";
 
     cout.precision(3);
-    cout << "Сторна AB\t" << "Сторна BC\t" << "Сторна CA\t" << "Площадь\t" << endl;
-    cout << a << "\t\t" << b << "\t\t" << c << "\t\t" << S << endl;
+    cout << "Сторна\t" << "Площадь" << endl;
+    cout << abc << "\t" << S << endl;
 
 
 }

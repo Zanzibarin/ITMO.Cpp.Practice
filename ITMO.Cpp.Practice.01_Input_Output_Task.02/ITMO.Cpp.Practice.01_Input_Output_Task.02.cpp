@@ -12,16 +12,20 @@ int main()
     //Упражнение 2. Преобразование типов данных
     system("chcp 1251");
 
+    string name;
+    cout << "Введите свое имя";
     double x;
     //int x;
     double a, b;
 
     cout << "\nВведите a и b:\n";
     cin >> a; // ввод с клавиатуры значения a
+    cin >> name;
     cin >> b; // ввод с клавиатуры значения b
     x = a / b; // вычисление значения x
     cout.precision(3);
     cout << "\nx = " << x << endl; //вывод результата на экран
+    cout << "Привет, " << name << "!\n";
     cout << sizeof(a / b) << ends << sizeof(x) << endl; //расчет объема занимаемой памяти
     return 0;
 }
