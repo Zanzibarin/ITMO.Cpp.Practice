@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ITMO.Cpp.Practice.01_Input_Output_Task.01", "ITMO.Cpp.Practice.01_Input_Output_Task.01\ITMO.Cpp.Practice.01_Input_Output_Task.01.vcxproj", "{60D6DEF7-0075-41BA-8B16-0D9750426361}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ITMO.Cpp.Practice.01_Input_Output_Task.02", "ITMO.Cpp.Practice.01_Input_Output_Task.02\ITMO.Cpp.Practice.01_Input_Output_Task.02.vcxproj", "{E5880DE1-963B-4C8F-BE26-1CE176827814}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ITMO.Cpp.Practice.01_Input_Output_Test", "ITMO.Cpp.Practice.01_Input_Output_Test\ITMO.Cpp.Practice.01_Input_Output_Test.vcxproj", "{C9338C03-5A6B-4DF9-B2A7-D40D2D518035}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ITMO.Cpp.Practice.01_Input_Output_Task.03", "ITMO.Cpp.Practice.01_Input_Output_Task.03\ITMO.Cpp.Practice.01_Input_Output_Task.03.vcxproj", "{1D1F014A-106C-40C4-AE17-74C5E8FEBFCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60D6DEF7-0075-41BA-8B16-0D9750426361}.Debug|x64.ActiveCfg = Debug|x64
+		{60D6DEF7-0075-41BA-8B16-0D9750426361}.Debug|x64.Build.0 = Debug|x64
+		{60D6DEF7-0075-41BA-8B16-0D9750426361}.Debug|x86.ActiveCfg = Debug|Win32
+		{60D6DEF7-0075-41BA-8B16-0D9750426361}.Debug|x86.Build.0 = Debug|Win32
+		{60D6DEF7-0075-41BA-8B16-0D9750426361}.Release|x64.ActiveCfg = Release|x64
+		{60D6DEF7-0075-41BA-8B16-0D9750426361}.Release|x64.Build.0 = Release|x64
+		{60D6DEF7-0075-41BA-8B16-0D9750426361}.Release|x86.ActiveCfg = Release|Win32
+		{60D6DEF7-0075-41BA-8B16-0D9750426361}.Release|x86.Build.0 = Release|Win32
+		{E5880DE1-963B-4C8F-BE26-1CE176827814}.Debug|x64.ActiveCfg = Debug|x64
+		{E5880DE1-963B-4C8F-BE26-1CE176827814}.Debug|x64.Build.0 = Debug|x64
+		{E5880DE1-963B-4C8F-BE26-1CE176827814}.Debug|x86.ActiveCfg = Debug|Win32
+		{E5880DE1-963B-4C8F-BE26-1CE176827814}.Debug|x86.Build.0 = Debug|Win32
+		{E5880DE1-963B-4C8F-BE26-1CE176827814}.Release|x64.ActiveCfg = Release|x64
+		{E5880DE1-963B-4C8F-BE26-1CE176827814}.Release|x64.Build.0 = Release|x64
+		{E5880DE1-963B-4C8F-BE26-1CE176827814}.Release|x86.ActiveCfg = Release|Win32
+		{E5880DE1-963B-4C8F-BE26-1CE176827814}.Release|x86.Build.0 = Release|Win32
+		{C9338C03-5A6B-4DF9-B2A7-D40D2D518035}.Debug|x64.ActiveCfg = Debug|x64
+		{C9338C03-5A6B-4DF9-B2A7-D40D2D518035}.Debug|x64.Build.0 = Debug|x64
+		{C9338C03-5A6B-4DF9-B2A7-D40D2D518035}.Debug|x86.ActiveCfg = Debug|Win32
+		{C9338C03-5A6B-4DF9-B2A7-D40D2D518035}.Debug|x86.Build.0 = Debug|Win32
+		{C9338C03-5A6B-4DF9-B2A7-D40D2D518035}.Release|x64.ActiveCfg = Release|x64
+		{C9338C03-5A6B-4DF9-B2A7-D40D2D518035}.Release|x64.Build.0 = Release|x64
+		{C9338C03-5A6B-4DF9-B2A7-D40D2D518035}.Release|x86.ActiveCfg = Release|Win32
+		{C9338C03-5A6B-4DF9-B2A7-D40D2D518035}.Release|x86.Build.0 = Release|Win32
+		{1D1F014A-106C-40C4-AE17-74C5E8FEBFCB}.Debug|x64.ActiveCfg = Debug|x64
+		{1D1F014A-106C-40C4-AE17-74C5E8FEBFCB}.Debug|x64.Build.0 = Debug|x64
+		{1D1F014A-106C-40C4-AE17-74C5E8FEBFCB}.Debug|x86.ActiveCfg = Debug|Win32
+		{1D1F014A-106C-40C4-AE17-74C5E8FEBFCB}.Debug|x86.Build.0 = Debug|Win32
+		{1D1F014A-106C-40C4-AE17-74C5E8FEBFCB}.Release|x64.ActiveCfg = Release|x64
+		{1D1F014A-106C-40C4-AE17-74C5E8FEBFCB}.Release|x64.Build.0 = Release|x64
+		{1D1F014A-106C-40C4-AE17-74C5E8FEBFCB}.Release|x86.ActiveCfg = Release|Win32
+		{1D1F014A-106C-40C4-AE17-74C5E8FEBFCB}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0854C973-0247-482F-A1BD-44B72DB2FF7B}
+	EndGlobalSection
+EndGlobal
