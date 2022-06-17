@@ -20,11 +20,20 @@ int main()
     cout << "Укажите сторону треугольника: ";
     cin >> abc;
 
+    cout << "\nСчитаем\n";
     p = (abc * 3) / 2;
-
     S = sqrt(p * (p - abc) * (p - abc) * (p - abc));
+    Sleep(500);
+    cout << ".";
+    Sleep(500);
+    cout << ".";
+    Sleep(500);
+    cout << ".";
+    Sleep(500);
+    cout << ".";
+    Sleep(500);
 
-    cout << "\n";
+    cout << "\n\n";
 
     cout.precision(3);
     cout << "Сторна\t" << "Площадь" << endl;

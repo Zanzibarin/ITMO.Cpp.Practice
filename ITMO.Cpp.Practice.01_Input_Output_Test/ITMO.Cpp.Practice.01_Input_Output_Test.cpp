@@ -52,15 +52,15 @@ int main()
     float rez = abs((((x1 * y2) + (x2 * y3) + (x3 * y4) + (x4 * y5) + (x5 * y1)) - ((y1 * x2) + (y2 * x3) + (y3 * x4) + (y4 * x5) + (y5 * x1))) / 2);
 
     cout << "\nСчитаем\n";
-    Sleep(1000);
+    Sleep(500);
     cout << ".";
-    Sleep(1000);
+    Sleep(500);
     cout << ".";
-    Sleep(1000);
+    Sleep(500);
     cout << ".";
-    Sleep(1000);
+    Sleep(500);
     cout << ".";
-    Sleep(1000);
+    Sleep(500);
     cout << "\nПлощадь пятиугольника равна: " << rez << "\n\n";
 }
 
