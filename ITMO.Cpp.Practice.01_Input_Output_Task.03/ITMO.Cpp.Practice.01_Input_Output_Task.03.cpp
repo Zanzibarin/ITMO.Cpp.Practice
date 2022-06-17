@@ -29,11 +29,9 @@ int main()
 
     cout << "\n";
 
-    //cout << "Сторна AB |" << " Сторна BC |" << " Сторна CD |" << " Площадь\n";
-    //cout << a << "           " << b << "           " << c << "           " << floor(Sqr * 100) / 100 << "\n";
-
+    cout.precision(3);
     cout << "Сторна AB\t" << "Сторна BC\t" << "Сторна CA\t" << "Площадь\t" << endl;
-    cout << a << "\t\t" << b << "\t\t" << c << "\t\t" << floor(S * 100) / 100 << endl;
+    cout << a << "\t\t" << b << "\t\t" << c << "\t\t" << S << endl;
 
 
 }

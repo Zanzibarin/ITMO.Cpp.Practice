@@ -5,17 +5,25 @@
 #include <windows.h>
 #include <string>
 
-using std::cin;
-using std::cout;
+using namespace std;
 
 int main()
 {
     //Упражнение 2. Преобразование типов данных
-    
-    SetConsoleCP(1251);
-    SetConsoleOutputCP(1251);
-    //system("chcp 1251");
-    cout << "Привет, Мир!\n";
+    system("chcp 1251");
+
+    double x;
+    //int x;
+    double a, b;
+
+    cout << "\nВведите a и b:\n";
+    cin >> a; // ввод с клавиатуры значения a
+    cin >> b; // ввод с клавиатуры значения b
+    x = a / b; // вычисление значения x
+    cout.precision(3);
+    cout << "\nx = " << x << endl; //вывод результата на экран
+    cout << sizeof(a / b) << ends << sizeof(x) << endl; //расчет объема занимаемой памяти
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
