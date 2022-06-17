@@ -25,7 +25,7 @@ int main()
     cin >> c;
 
     float p = (a + b + c) / 2;
-    float Sqr = sqrt(p * (p - a) * (p - b) * (p - c));
+    float S = sqrt(p * (p - a) * (p - b) * (p - c));
 
     cout << "\n";
 
@@ -33,7 +33,7 @@ int main()
     //cout << a << "           " << b << "           " << c << "           " << floor(Sqr * 100) / 100 << "\n";
 
     cout << "Сторна AB\t" << "Сторна BC\t" << "Сторна CA\t" << "Площадь\t" << endl;
-    cout << a << "\t\t" << b << "\t\t" << c << "\t\t" << floor(Sqr * 100) / 100 << endl;
+    cout << a << "\t\t" << b << "\t\t" << c << "\t\t" << floor(S * 100) / 100 << endl;
 
 
 }
