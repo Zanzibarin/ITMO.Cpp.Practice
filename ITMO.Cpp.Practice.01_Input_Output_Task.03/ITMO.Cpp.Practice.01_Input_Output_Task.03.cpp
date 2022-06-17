@@ -15,9 +15,7 @@ int main()
 
     cout << "Расчет площади треугольника ABC по формуле Герона\n\n";
     
-    float a;
-    float b;
-    float c;
+    float a, b, c;
     
     cout << "Введите длинну стороны AB: ";
     cin >> a;
