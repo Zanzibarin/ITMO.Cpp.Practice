@@ -21,11 +21,7 @@ int main()
     cout << "Введите год: ";
     cin >> year;
 
-    if (year % 4 == 0 && year % 100 != 0)
-    {
-        cout << year << " - Високосный год.";
-    }
-    else if (year % 400 == 0)
+    if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0)
     {
         cout << year << " - Високосный год.";
     }
