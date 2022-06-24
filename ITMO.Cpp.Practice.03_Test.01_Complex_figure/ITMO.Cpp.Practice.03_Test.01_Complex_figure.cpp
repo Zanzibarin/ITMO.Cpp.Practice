@@ -5,16 +5,16 @@
 
 using namespace std;
 
-// Начальная итерация функции, для расчёта площади равностороннего треугольника
-float triangle(float a, float b, float c, float d)
+// 1-я функция, для расчёта площади равностороннего треугольника
+float triangleSqare(float a, float b, float c, float d)
 {
     float side = sqrt((a - c) * (a - c) + (b - d) * (b - d));
     float semiP = (side * 3) / 2;
     float Sqare = sqrt(semiP * (semiP - side) * (semiP - side) * (semiP - side));
     return Sqare;
 }
-// Перегрузка функции. Теперь в ней рассчитывается площадь комплексной фигуры из трёх треугольников
-float triangle(float s)
+// 2-я функция, для расчёта площади комплексной фигуры из трёх треугольников
+float FigureSqare(float s)
 {
     float totalSqare = s * 3;
     return totalSqare;
@@ -37,8 +37,8 @@ int main()
     cin >> x2;
     cin >> y2;
 
-    float triSide = triangle(x1, y1, x2, y2);
-    float firureSqr = triangle(triSide);
+    float triSide = triangleSqare(x1, y1, x2, y2); //Вызов 1-й функции
+    float figureSqr = FigureSqare(triSide); //Вызов 2-й функции
 
-    cout << "Площадь фигуры из трёх равносторонних треугольников равна " << firureSqr << endl;
+    cout << "Площадь фигуры из трёх равносторонних треугольников равна " << figureSqr << endl;
 }
