@@ -59,6 +59,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ITMO.Cpp.Practice.03_Test.0
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ITMO.Cpp.Practice.03_Test.05_Binary", "ITMO.Cpp.Practice.03_Test.05_Binary\ITMO.Cpp.Practice.03_Test.05_Binary.vcxproj", "{593527B1-5600-45E2-A784-17979E35376E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ITMO.Cpp.Practice.05_Task.01_Massive_Data_Process", "ITMO.Cpp.Practice.05_Task.01_Massive_Data_Process\ITMO.Cpp.Practice.05_Task.01_Massive_Data_Process.vcxproj", "{2ACB28C8-60CC-4E84-A333-8EBFB2EE3175}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -291,6 +293,14 @@ Global
 		{593527B1-5600-45E2-A784-17979E35376E}.Release|x64.Build.0 = Release|x64
 		{593527B1-5600-45E2-A784-17979E35376E}.Release|x86.ActiveCfg = Release|Win32
 		{593527B1-5600-45E2-A784-17979E35376E}.Release|x86.Build.0 = Release|Win32
+		{2ACB28C8-60CC-4E84-A333-8EBFB2EE3175}.Debug|x64.ActiveCfg = Debug|x64
+		{2ACB28C8-60CC-4E84-A333-8EBFB2EE3175}.Debug|x64.Build.0 = Debug|x64
+		{2ACB28C8-60CC-4E84-A333-8EBFB2EE3175}.Debug|x86.ActiveCfg = Debug|Win32
+		{2ACB28C8-60CC-4E84-A333-8EBFB2EE3175}.Debug|x86.Build.0 = Debug|Win32
+		{2ACB28C8-60CC-4E84-A333-8EBFB2EE3175}.Release|x64.ActiveCfg = Release|x64
+		{2ACB28C8-60CC-4E84-A333-8EBFB2EE3175}.Release|x64.Build.0 = Release|x64
+		{2ACB28C8-60CC-4E84-A333-8EBFB2EE3175}.Release|x86.ActiveCfg = Release|Win32
+		{2ACB28C8-60CC-4E84-A333-8EBFB2EE3175}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
